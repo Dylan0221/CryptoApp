@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_gray"
+
+    tools:context=".presentation.ui.fragments.CoinDetailsFragment">
+
+    <ImageView
+        android:id="@+id/coinDetailImage"
+        android:layout_width="130dp"
+        android:layout_height="142dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@tools:sample/avatars" />
+
+
+    <TextView
+        android:id="@+id/coinDetailMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="1"
+        android:textAlignment="center"
+        android:textColor="@color/light_green"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/coinDetailImage" />
+
+    <TextView
+        android:id="@+id/coinDetailRow1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="1"
+        android:maxLength="30"
+        android:textColor="@color/light_green"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/coinDetailRow2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="12dp"
+        android:text="1"
+        android:maxLength="30"
+        android:textColor="@color/light_green"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/coinDetailRow1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/coinDetailRow3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="12dp"
+        android:text="1"
+        android:maxLength="30"
+        android:textColor="@color/light_green"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/coinDetailRow2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/coinDetailRow4"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="12dp"
+        android:text="1"
+        android:maxLength="30"
+        android:textColor="@color/light_green"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/coinDetailRow3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <TextView
+        android:id="@+id/coinDetailRow5"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="12dp"
+        android:text="1"
+        android:maxLength="30"
+        android:textColor="@color/light_green"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/coinDetailRow4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/coinDetailRow6"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="12dp"
+        android:text="1"
+        android:maxLength="30"
+        android:textColor="@color/light_green"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/coinDetailRow5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/coinDetailRow7"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="12dp"
+        android:text="1"
+        android:maxLength="30"
+        android:textColor="@color/light_green"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/coinDetailRow6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/coinDetailRow8"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="12dp"
+        android:text="1"
+        android:maxLength="28"
+        android:textColor="@color/light_green"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/coinDetailRow7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/coinDetailRow9"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="12dp"
+        android:text="1"
+        android:maxLength="30"
+        android:textColor="@color/light_green"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/coinDetailRow8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/coinDetailProgressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
